@@ -1,18 +1,19 @@
-# 06: Weather Dashboard
+# 19 Progressive Web Applications (PWA): Text Editor
 
 ## Description
 
-This project demonstrates automation that can be used to check the weather using OpenWeatherAPI.  The user has the abilty to search for cities and check the weather.  Upon refresh, the cities that the user has previously searched for will be displayed in buttons along the left.
+This text editor single-page application runs in the browser as well as offline. It is a PWA application that features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. 
 
 ### Technologies Used
 
-* HTML
-* JavaScript
-* CSS
-* OpenWeather API
+* indexDB
+* manifest.JSON
+* webpack
+* babel
+* service-worker
 
 ### Screenshot
 
-![Alt Text](./assets/css/img/screenshot.png)
+![Alt Text](./Assets/img/screenshot.png)
 
-https://bussudo.github.io/weatherdashboard/
+https://github.com/bussudo/PWATextEditor
